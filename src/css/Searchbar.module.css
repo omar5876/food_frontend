@@ -1,0 +1,60 @@
+.searchbarContainer{
+    width: 90%;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 1px auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchbarContainer div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.searchbarContainer input{
+    background-color: transparent;
+    text-align: center;
+    height: 30px;
+    margin-right: 5px;
+}
+
+::placeholder{color: wheat;}
+
+.searchbarContainer button{
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+
+.searchbarContainer select{
+    cursor: pointer;
+}
+
+.searchbarContainer  button img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.searchbarContainer select{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.searchbarContainer option{
+    background-color: black;
+    color: white;
+    
+}

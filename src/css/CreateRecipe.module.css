@@ -1,0 +1,73 @@
+.createRecipeContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.createRecipeContainer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(1, 1, 1, .5);
+    width: 50%;
+    min-height: 75vh;
+    margin: 10px auto;
+    padding: 25px 50px;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 20px;
+}
+
+.createRecipeContainer form input,
+.createRecipeContainer form textarea{
+    color: wheat;
+    background-color: transparent;
+}
+
+.createRecipeContainer form input[type='submit']{
+    background-color: rgba(1, 1, 1, .5);
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 1px 1px 10px white;
+    padding: 10px 5px;
+}
+.createRecipeContainer form input[type='submit']:hover{
+    
+    box-shadow: 1px 1px 10px gold;
+    cursor: pointer;
+   
+}
+
+.dangerAlert{
+    color: red;
+    text-shadow: 1px 1px 10px red;
+}
+
+.stepsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.stepsContainer button{
+    border: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px white;
+    padding: 5px;
+}
+.choosenDiets button{
+    border: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px white;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.createRecipeContainer form select{
+    background-color: black;
+    color: aliceblue;
+    
+}

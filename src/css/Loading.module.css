@@ -1,0 +1,10 @@
+.loadingContainer{
+    width: 300px;
+    min-height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+ 
+}

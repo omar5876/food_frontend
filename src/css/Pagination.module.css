@@ -1,0 +1,20 @@
+.paginationContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.paginationContainer div{
+    width: 7%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 5px;
+}
+
+.paginationContainer div:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px white;
+}

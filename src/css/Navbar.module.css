@@ -1,0 +1,50 @@
+.navbarContainer{
+    width: 100%;
+}
+
+.navbarItems{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarItems a{
+    width: 7%;
+}
+
+.navbarItems ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 22px;
+    position: relative;
+}
+
+.navbarItems ul{
+    width: 50%;
+}
+.navbarLogo{
+    width: 100%;
+    border-radius: 75%;
+}
+
+.navbarLinks{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.navbarItems ul li::before{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    bottom: -2px;
+    transition: 0.4s ease-out;
+}
+
+.navbarItems ul li:hover::before{
+    width: 100%;
+}
